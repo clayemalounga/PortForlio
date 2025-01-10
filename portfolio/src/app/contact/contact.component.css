@@ -1,0 +1,144 @@
+.contact-section {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+/* En-tête de section */
+.section-header {
+    margin-bottom: 60px;
+}
+
+.section-header .subtitle {
+    color: rgb(91, 98, 232);
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.section-header .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 20px;
+}
+
+.section-line {
+    width: 80px;
+    height: 4px;
+    background: rgb(91, 98, 232);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/* Cartes d'information de contact */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: rgb(91, 98, 232);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-card h3 {
+    font-size: 1.2rem;
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact-card p {
+    color: #4a5568;
+    margin: 0;
+}
+
+/* Formulaire de contact */
+.contact-form-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-group label {
+    color: #2d3748;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-control {
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: rgb(91, 98, 232);
+    box-shadow: 0 0 0 3px rgba(91, 98, 232, 0.1);
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.btn-send {
+    background: rgb(91, 98, 232);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-send:hover {
+    background: rgb(81, 88, 222);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(91, 98, 232, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 40px 0;
+    }
+
+    .section-header .section-title {
+        font-size: 2rem;
+    }
+
+    .contact-form-card {
+        padding: 25px;
+    }
+}

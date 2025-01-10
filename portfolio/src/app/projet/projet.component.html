@@ -1,0 +1,111 @@
+<div class="projects-section"></div>
+    <div class="container">
+        <!-- En-tête -->
+        <div class="section-header text-center mb-5">
+            <span class="subtitle">Mes Réalisations</span>
+            <h2 class="section-title">Projets Développés</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <!-- Filtres -->
+        <div class="filters-container mb-5">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="desktop">Desktop</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <!-- Grille des projets -->
+        <div class="projects-grid">
+            <!-- Projet 1 -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="preview-btn" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <h3 class="project-title">Système de Gestion Bancaire</h3>
+                    <p class="project-description">
+                        Application complète de gestion bancaire permettant aux utilisateurs de gérer leurs comptes, 
+                        effectuer des transactions et suivre leur historique financier.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code Source
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Demo Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 2 -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaFX</span>
+                        <span class="tag">SQLite</span>
+                    </div>
+                    <h3 class="project-title">Application de Gestion Hospitalière</h3>
+                    <p class="project-description">
+                        Système de gestion hospitalière permettant la prise de rendez-vous, 
+                        le suivi des patients et la gestion des consultations médicales.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code Source
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Demo Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ajoutez d'autres projets de la même manière -->
+        </div>
+    </div>
+
+    <!-- Modal pour la vidéo détaillée -->
+    <div class="modal fade" id="project1Modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Démonstration Détaillée</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="video-wrapper-full">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-details mt-4">
+                        <h4>Fonctionnalités principales</h4>
+                        <ul class="features-list">
+                            <li>Authentification sécurisée des utilisateurs</li>
+                            <li>Gestion des transactions en temps réel</li>
+                            <li>Tableau de bord administratif</li>
+                            <li>Génération de rapports PDF</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
