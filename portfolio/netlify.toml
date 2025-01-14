@@ -2,8 +2,8 @@
 [build]
   command = "npm run build"
   functions = "netlify/functions"
-  publish = "dist/portfolio"
-  
+  publish = "dist/portfolio/browser"
+
   [[redirects]]
   from = "/*"
   to = "/index.html"
